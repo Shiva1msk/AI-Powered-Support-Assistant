@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║                  ⚠️  IMPORTANT: RESTART FRONTEND ⚠️                   ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+The 404 error has been FIXED in the code!
+
+But you MUST restart the frontend for changes to take effect.
+
+═══════════════════════════════════════════════════════════════════════
+
+🔄 HOW TO RESTART:
+
+1. Go to your frontend terminal
+2. Press Ctrl+C (stops the server)
+3. Run: npm start
+4. Wait for browser to open
+
+═══════════════════════════════════════════════════════════════════════
+
+✅ WHAT WAS FIXED:
+
+- Frontend now uses direct URLs to backend
+- No more proxy issues
+- Direct connection: http://localhost:3001/api/chat
+- Should work immediately after restart
+
+═══════════════════════════════════════════════════════════════════════
+
+🧪 AFTER RESTART, TEST:
+
+Type in chat: "How do I reset my password?"
+
+Expected: You get a response about password reset from Settings > Security
+
+═══════════════════════════════════════════════════════════════════════
+
+⚠️  REMEMBER:
+
+✓ Backend must be running (port 3001)
+✓ Frontend must be restarted (not just refreshed!)
+✓ Browser will open automatically to localhost:3000
+
+═══════════════════════════════════════════════════════════════════════
+
+🎯 CHECKLIST:
+
+[ ] Backend terminal shows "Server running on port 3001"
+[ ] Frontend terminal stopped (Ctrl+C)
+[ ] Frontend restarted (npm start)
+[ ] Browser opened to localhost:3000
+[ ] Sent a test message
+[ ] Got a response!
+
+═══════════════════════════════════════════════════════════════════════
+
+If you still see 404 after restart, see: FINAL_FIX.md
+
+═══════════════════════════════════════════════════════════════════════

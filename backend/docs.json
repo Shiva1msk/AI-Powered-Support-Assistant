@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Reset Password",
+    "content": "Users can reset password from Settings > Security. Click on 'Forgot Password' and follow the email instructions."
+  },
+  {
+    "title": "Refund Policy",
+    "content": "Refunds are allowed within 7 days of purchase. Contact support@example.com with your order number."
+  },
+  {
+    "title": "Account Creation",
+    "content": "To create an account, click 'Sign Up' on the homepage and provide your email, username, and password."
+  },
+  {
+    "title": "Payment Methods",
+    "content": "We accept credit cards (Visa, MasterCard, Amex), PayPal, and bank transfers."
+  },
+  {
+    "title": "Shipping Information",
+    "content": "Standard shipping takes 5-7 business days. Express shipping is available for 2-3 day delivery."
+  },
+  {
+    "title": "Contact Support",
+    "content": "You can reach our support team via email at support@example.com or call us at 1-800-SUPPORT during business hours (9 AM - 5 PM EST)."
+  }
+]

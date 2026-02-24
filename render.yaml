@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: support-assistant-backend
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-pro
+    healthCheckPath: /health
+
+  - type: web
+    name: support-assistant-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/build
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://support-assistant-backend.onrender.com/api/*
+      - type: rewrite
+        source: /health
+        destination: https://support-assistant-backend.onrender.com/health
