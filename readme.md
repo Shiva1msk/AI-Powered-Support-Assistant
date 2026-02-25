@@ -1,7 +1,10 @@
 # AI-Powered Support Assistant 🤖
 
 A full-stack AI-powered support assistant that answers questions based on product documentation, maintains session-wise context, and stores conversations in SQLite.
-
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
+![Status](https://img.shields.io/badge/Status-Live-success)
 ## 🌐 Live Deployment
 
 - 🔴 **Frontend (Vercel):** https://ai-powered-support-assistant-lyart.vercel.app  
@@ -15,7 +18,7 @@ A full-stack AI-powered support assistant that answers questions based on produc
 ## ✅ APPLICATION IS WORKING!
 
 The application is **fully functional** and ready to use right now!  
-Currently running with **document-based mock responses** (fallback mode).
+Currently running with deterministic document-based responses with LLM fallback support.
 
 ---
 
